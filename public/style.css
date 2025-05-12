@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  font-size: 26px;
+  color: #00ffc3;
+}
+
+header p {
+  margin-top: 0;
+  color: #bbb;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="url"] {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background: #00ffc3;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #00c2a3;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.result-card {
+  background: #222;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.result-card img {
+  width: 80px;
+  border-radius: 8px;
+}
+
+.result-card .info {
+  flex: 1;
+}
+
+.result-card .info h3 {
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+.result-card .info a {
+  color: #00ffc3;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
