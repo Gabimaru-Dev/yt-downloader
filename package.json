@@ -1,0 +1,23 @@
+{
+  "name": "quicktube-mp3-downloader",
+  "version": "1.0.0",
+  "description": "A professional YouTube to MP3 downloader built with Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "youtube",
+    "mp3",
+    "downloader",
+    "express",
+    "frontend",
+    "api"
+  ],
+  "author": "Ayodele David (Gabimaru)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.4",
+    "node-fetch": "^2.6.7"
+  }
+}
