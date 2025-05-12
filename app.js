@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const SELF_URL = 'https://your-render-url.onrender.com'; // Replace with actual Render URL
+const SELF_URL = 'https://yt-downloader-xhww.onrender.com'; // Replace with actual Render URL
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
